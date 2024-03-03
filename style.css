@@ -4,6 +4,7 @@ body {
     padding: 0; 
     color: white;
 }
+
 header {
     position: sticky;
     top: 0;
@@ -17,77 +18,117 @@ header {
     gap: 3px;
 }
 
-h2{
+h2 {
     font-size: 32px;
 }
 
-#justs{
+#justs {
     padding-top: 13px;
 }
-
-#smalltext {
-    font-size: 14px; /* Adjust the font size as needed */
-}
-
 
 #subtitle {
     margin-left: 10px; 
 }
 
-#titlepar{
+#titlepar {
     text-align: center;
 }
-#examples{
+
+#examples {
     display: flex;
     align-items: center;
     justify-content: center; 
     gap: 20px;
 }
 
-footer{
+footer {
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center; 
     gap: 80px;
 }
-#midtext{
+
+#midtext {
     text-align: center;
 }
 
 a {
     color: #fff;
 }
+
 .logos {
-    display: flex; /* Enables flexbox */
-    flex-direction: column; /* Stacks items vertically */
-    align-items: center; /* Centers items horizontally */
-    text-align: center; /* Ensures the text inside the <p> is centered as well */
-}
-
-#logo {
-    width: 40px;
-    height: 40px;
-}
-#virustotal{
-    width: 80px;
-    height: 40px;
-}
-
-#windows{
-    width: 80px;
-    height: 40px;
-}
-.desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
-.center
-{
- text-align: center;
- list-style-position: inside;
+
+hr {
+    border-color: #7e6c8a; /* Sets the border color to red */
 }
-ol.center li
-{
- text-align: center;
- margin-right: -35px;
+
+
+#logo, #windows {
+    width: 50px; /* Adjusted for consistency */
+    height: 50px; /* Maintain aspect ratio */
+}
+#virustotal{
+    width: 100px; /* Adjusted for consistency */
+    height: 50px; /* Maintain aspect ratio */
+}
+
+.desc, .center {
+    text-align: center;
+}
+
+ol.center li {
+    margin-right: -35px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    h2, #titlepar h1, .desc p, #midtext {
+        font-size: 20px; /* Adjust based on preference for smaller screens */
+    }
+
+    #examples, footer {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .logos img {
+        width: 30px; /* Smaller logos for smaller screens */
+    }
+
+    #examples {
+        gap: 10px;
+    }
+
+    .logos {
+        gap: 15px; /* Less space between logo and text */
+    }
+    .softwareImg{
+        width: 50%;
+        height: 50%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body, #titlepar, #examples, footer, .desc {
+        padding: 0 10px; /* Adds padding on smaller screens */
+    }
+
+    h2, #titlepar h1, .desc p, #midtext {
+        font-size: 18px; /* Even smaller font sizes for very small devices */
+    }
+
+    header, footer {
+        flex-direction: column;
+        align-items: center; /* Center content in header and footer on small screens */
+    }
+
+    #logo, #virustotal, #windows {
+        width: 25px; /* Even smaller logos for very small screens */
+    }
 }
