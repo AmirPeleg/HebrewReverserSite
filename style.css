@@ -13,7 +13,16 @@ header {
     height: 30px;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: flex-end;
+    gap: 3px;
+}
+
+h2{
+    font-size: 32px;
+}
+
+#justs{
+    padding-top: 13px;
 }
 
 #smalltext {
@@ -35,10 +44,50 @@ header {
     gap: 20px;
 }
 
-#ender{
+footer{
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center; 
     gap: 80px;
+}
+#midtext{
+    text-align: center;
+}
+
+a {
+    color: #fff;
+}
+.logos {
+    display: flex; /* Enables flexbox */
+    flex-direction: column; /* Stacks items vertically */
+    align-items: center; /* Centers items horizontally */
+    text-align: center; /* Ensures the text inside the <p> is centered as well */
+}
+
+#logo {
+    width: 40px;
+    height: 40px;
+}
+#virustotal{
+    width: 80px;
+    height: 40px;
+}
+
+#windows{
+    width: 80px;
+    height: 40px;
+}
+.desc{
+    text-align: center;
+}
+.center
+{
+ text-align: center;
+ list-style-position: inside;
+}
+ol.center li
+{
+ text-align: center;
+ margin-right: -35px;
 }
