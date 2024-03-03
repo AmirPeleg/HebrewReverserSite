@@ -80,9 +80,6 @@ hr {
 
 .desc, .center {
     text-align: center;
-}
-
-ol.center li {
     margin-right: -35px;
 }
 
