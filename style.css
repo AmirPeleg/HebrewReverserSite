@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(to bottom right, #7e6c8a, #564d6e, #a18eb2, #866c9e); 
+    margin: 0;
+    padding: 0; 
+    color: white;
+}
+header {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 1px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#smalltext {
+    font-size: 14px; /* Adjust the font size as needed */
+}
+
+
+#subtitle {
+    margin-left: 10px; 
+}
+
+#titlepar{
+    text-align: center;
+}
+#examples{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 20px;
+}
+
+#ender{
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 80px;
+}
