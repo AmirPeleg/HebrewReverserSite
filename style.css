@@ -1,8 +1,12 @@
+ 
 body {
     background: linear-gradient(to bottom right, #7e6c8a, #564d6e, #a18eb2, #866c9e); 
     margin: 0;
     padding: 0; 
     color: white;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 header {
@@ -16,6 +20,9 @@ header {
     align-items: center;
     justify-content: flex-end;
     gap: 3px;
+        font-family: "Suez One", serif;
+        font-weight: 100;
+        font-style:unset;
 }
 
 h2 {
@@ -66,6 +73,12 @@ a {
 
 hr {
     border-color: #7e6c8a; /* Sets the border color to red */
+}
+
+h1{
+    font-family: "Suez One", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 
