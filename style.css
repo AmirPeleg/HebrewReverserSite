@@ -100,7 +100,7 @@ h1{
 
 /* Responsive adjustments */
 @media screen and (max-width: 768px) {
-    h2, #titlepar h1, .desc p, #midtext {
+    h2, #titlepar h1, .desc p, #midtext, #vidExample {
         font-size: 20px; /* Adjust based on preference for smaller screens */
     }
 
