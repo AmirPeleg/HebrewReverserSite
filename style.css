@@ -93,14 +93,14 @@ h1{
     height: 50px; /* Maintain aspect ratio */
 }
 
-.desc, .center, #vidExample {
+.desc, .center {
     text-align: center;
     margin-right: -35px;
 }
 
 /* Responsive adjustments */
 @media screen and (max-width: 768px) {
-    h2, #titlepar h1, .desc p, #midtext, #vidExample {
+    h2, #titlepar h1, .desc p, #midtext{
         font-size: 20px; /* Adjust based on preference for smaller screens */
     }
 
@@ -127,11 +127,11 @@ h1{
 }
 
 @media screen and (max-width: 480px) {
-    body, #titlepar, #examples, footer, .desc, #vidExample {
+    body, #titlepar, #examples, footer, .desc {
         padding: 0 10px; /* Adds padding on smaller screens */
     }
 
-    h2, #titlepar h1, .desc p, #midtext, #vidExample {
+    h2, #titlepar h1, .desc p, #midtext {
         font-size: 18px; /* Even smaller font sizes for very small devices */
     }
 
