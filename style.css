@@ -50,6 +50,11 @@ h2 {
     gap: 20px;
 }
 
+.softwareImg{
+    width: 400px;
+    width: 600px;
+}
+
 footer {
     background-color: #333;
     display: flex;
@@ -121,6 +126,11 @@ h1{
         gap: 15px; /* Less space between logo and text */
     }
     .softwareImg{
+        width: 50%;
+        height: 50%;
+    }
+
+    iframe{
         width: 50%;
         height: 50%;
     }
