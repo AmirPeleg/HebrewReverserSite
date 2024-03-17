@@ -28,9 +28,9 @@ header {
 }
 
 .center {
-        list-style-type: none;
-        text-align: center;
-   }
+    list-style-type: none;
+    margin-right: -35px;
+}
 
 h2 {
     font-size: 32px;
