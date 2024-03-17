@@ -27,6 +27,10 @@ header {
         font-style:unset;
 }
 
+ul{
+ list-style-type: none;
+}
+
 h2 {
     font-size: 32px;
 }
