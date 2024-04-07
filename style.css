@@ -107,6 +107,10 @@ h1{
     text-align: center;
 }
 
+#disclaimer{
+    font-size: small;
+}
+
 /* Responsive adjustments */
 @media screen and (max-width: 768px) {
     h2, #titlepar h1, .desc p, #midtext{
